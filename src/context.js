@@ -11,7 +11,7 @@ const AppProvider = ({children}) => {
     const [query, setQuery] = useState("titanic");
 
     // Api url
-const API_URL = `http://www.omdbapi.com/?s=${query}&apikey=${process.env.REACT_APP_API_KEY}`
+const API_URL = `https://www.omdbapi.com/?s=${query}&apikey=${process.env.REACT_APP_API_KEY}`
 
     const getMovies = async (url) =>{
         setIsLoading(true);

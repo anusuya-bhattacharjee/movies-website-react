@@ -9,7 +9,7 @@ const SingleMovie = () => {
   const {id} = useParams();
 
      // Api url
-const API_URL = `http://www.omdbapi.com/?i=${id}&apikey=${process.env.REACT_APP_API_KEY}`
+const API_URL = `https://www.omdbapi.com/?i=${id}&apikey=${process.env.REACT_APP_API_KEY}`
   
     const getMovie = async (url) =>{
       setIsLoading(true);
