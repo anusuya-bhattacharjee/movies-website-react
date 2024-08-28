@@ -16,7 +16,7 @@ const Movies = () => {
 
   return (
     <section className="movie-section">
-    <div className='container gird grid-4-col'>
+    <div className='movie-section container grid grid-4-col'>
     {movies.map((movie) => {
       const {Title, Poster, imdbID}  = movie
       const movieName = Title.substr(0, 15);
@@ -34,8 +34,6 @@ const Movies = () => {
     </div>
 
     </section>
-      
- 
   )
   
 }

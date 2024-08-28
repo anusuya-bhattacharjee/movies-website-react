@@ -3,8 +3,6 @@ import React, {useContext, useEffect, useState} from "react";
 
 const AppContext = React.createContext();
 
-
-
 //we need to create a provider function
 const AppProvider = ({children}) => {
     const [movies, setMovies] = useState([]);

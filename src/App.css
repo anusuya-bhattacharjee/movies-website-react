@@ -185,6 +185,48 @@ a:hover img {
 
 .back-btn {
   padding: 1.2rem 3.6rem;
+  margin-bottom: 3rem;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    margin: auto;
+    max-width: 110rem;
+  }
+  .grid-4-col {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 998px){
+  .container {
+    max-width: 90rem;
+    margin: auto;
+  }
+  .grid-4-col {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  input {
+    width: 25rem;
+  }
+
+  .movie-section {
+    height: auto;
+    padding: 4.8rem 0;
+  }
+
+  .movie-card {
+    grid-template-columns: 1fr;
+  }
+
+  .card-content {
+    padding-left: 2rem;
+  }
+
+  .back-btn {
+    margin-bottom: 3rem;
+  }
 }
 
 /* .App-logo {
